@@ -1,0 +1,145 @@
+@import url(../../../../assets/styles/colors.css);
+
+
+
+.about {
+    background-color: var(--color-black);
+}
+
+
+.about__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+.left__h2 {
+    color: var(--color-orange);
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -1.44px;
+    margin-bottom: 91px;
+    
+}
+
+
+.left__p1 {
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    max-width: 685px;
+    width: 100%;
+    margin-bottom: 73px;    
+}
+
+.left__p2 {
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    max-width: 731px;
+    width: 100%; 
+    margin-bottom: 73px;   
+}
+
+.left__p3 {
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    max-width: 780px;
+    width: 100%; 
+}
+
+
+
+
+
+        /* About cards */
+
+
+.about__right {
+    display: flex;
+    gap: 100px;
+    /* flex-direction: column; */
+}
+
+.about__h2_mobile {
+    display: none;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+
+.card__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.estImg {
+    background-image: url(./aboutUsImages/est.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.checkImg {
+    background-image: url(./aboutUsImages/check.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.peopleImg {
+    background-image: url(./aboutUsImages/people.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.handsImg {
+    background-image: url(./aboutUsImages/hand.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+
+.card__p1 {
+    color: var(--color-white);
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -2.88px;
+    margin-bottom: 14px;
+}
+
+.card__p2 {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.72px;
+}

@@ -1,0 +1,53 @@
+@import url(../../../../assets/styles/colors.css);
+
+.partners {
+    background-color: var(--color-black);
+    min-height: 100vh;
+}
+
+.partners__h2 {
+    color: var(--color-orange);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -1.92px;
+    padding-top: 91px;
+    margin-bottom: 19px;
+}
+
+
+.partners__headerP {
+    color: var(--color-white);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    max-width: 516px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+
+.partners__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners__footerP {
+    width: 398px;
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 144.336%; 
+    letter-spacing: -1.28px;
+    align-self: flex-end;
+}
+
+.partners__img {
+    background-image: url(./group-logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 952px;
+    width: 100%;
+    height: 458px; 
+}

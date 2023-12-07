@@ -1,0 +1,91 @@
+@import url(../../../assets/styles/colors.css);
+
+.environmentPage {
+    background-image: linear-gradient(to right, #0E0E0E, #4CB944);
+}
+
+.environmentPage__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+
+
+}
+
+.environmentPage__flex_right {
+    background-image: url(../home/servicesPages/servicesPagesImages/3.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 235px; 
+}
+
+.flex__table_left {
+    background-image: url(./table.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 625px;
+    height: 658px; 
+}
+
+.environmentPage__flex_left h2 {
+    color: var(--color-white);
+    font-size: 48px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-bottom: 63px;
+}
+
+.environmentPage__flex_left h3 {
+    color: var(--color-white);
+    font-size: 36px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.flex__h3_three {
+    max-width: 568px;
+}
+
+.environmentPage__flex_left p {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    max-width: 520px;
+    margin-bottom: 35px;
+}
+
+.environmentPage__flex_left>.flex__p_penultimate {
+    margin-bottom: 92px;
+    max-width: 462px;
+}
+
+.environmentPage__flex_left>.flex__p_last {
+    margin-bottom: 60px;
+}
+
+p.flex__p_first {
+    max-width: 450px;
+}
+
+p.flex__p_second {
+    max-width: 585px;
+}
+
+p.flex__p_three {
+    max-width: 550px;
+}
+
+p.flex__p_five {
+    max-width: 585px;
+}
+
+
+
+

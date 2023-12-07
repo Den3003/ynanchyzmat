@@ -1,0 +1,56 @@
+
+
+
+.dynamicButton, .pipelineButton, .environmentButton, .civilButton, .oilfieldButton {
+    background-color: var(--color-white);
+    border: 3px solid var(--color-white);
+    padding: 19px 53px;
+    font-size: 24px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+
+
+        /* Dynamic Button */
+
+.dynamicButton {
+    color: var(--color-blue);
+    
+}
+
+
+        /* Pipeline Button */
+
+.pipelineButton {
+    color: var(--color-silver);
+}
+
+
+
+        /* Environment Button*/
+
+
+.environmentButton {
+    color: var(--color-green);
+}
+
+
+
+        /* Civil Button*/
+
+
+.civilButton {
+    color: var(--color-white);
+    background-color: #000;
+    border: 3px solid #000;
+}
+
+
+        /* Oilfield Button*/
+
+
+.oilfieldButton {
+    color: var(--color-brown);
+}

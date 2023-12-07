@@ -1,0 +1,98 @@
+@import url(../styles/colors.css);
+
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Regular'), local('Inter-Regular'), url(../fonts/Inter-Regular.woff2) format("woff2"),
+    url(../fonts/Inter-Regular.woff) format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Semi Bold'), local('Inter-Semi-Bold'), url(../fonts/Inter-SemiBold.woff2) format("woff2"),
+    url(../fonts/Inter-SemiBold.woff) format("woff");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Light BETA'), local('Inter-Light-BETA'), url(../fonts/Inter-LightBETA.woff2) format("woff2"),
+    url(../fonts/Inter-LightBETA.woff) format("woff");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Medium'), local('Inter-Medium'), url(../fonts/Inter-Medium.woff2) format("woff2"),
+    url(../fonts/Inter-Medium.woff) format("woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Bold'), local('Inter-Bold'), url(../fonts/Inter-Bold.woff2) format("woff2"),
+    url(../fonts/Inter-Bold.woff) format("woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+
+
+#root {
+   
+  height: 100%;
+}
+
+html,
+body {
+    /* display: flex; */
+  /* position: relative; */
+  height: 100%;
+}
+
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter';
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+}
+
+
+.swiper-vertical>.swiper-wrapper>.swiper-slide:last-child {
+  height: auto;
+}
+
+
+
+
+.container {
+    max-width: 1530px;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+
+.header__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.footer__left {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+.right__p {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+
+.right__img {
+    background-image: url(./arrow-down.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__right {
+    display: flex;
+    gap: 20px;
+}

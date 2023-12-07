@@ -1,0 +1,31 @@
+@import url(../../../../assets/styles/colors.css);
+
+
+
+.experience {
+    background-color: var(--color-black);
+    min-height: 100vh;
+    /* padding-top: 68px; */
+    /* padding-bottom: 53px; */
+}
+
+.experience__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__h2 {
+    color: var(--color-white);
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -1.92px;
+    margin-top: 68px;
+}
+
+.experience__footer {
+    color: var(--color-orange);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    margin-bottom: 53px;
+}

@@ -1,0 +1,10 @@
+.header {
+    background-color: #181818;
+}
+
+.flex {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

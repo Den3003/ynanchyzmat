@@ -1,0 +1,205 @@
+@import url(../../../../assets/styles/colors.css);
+
+
+
+.servicesPage__flex {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.servicesPage__header {
+    margin-top: 72px;
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+}
+
+
+.servicesHeader__span {
+    font-weight: 300;
+}
+
+
+
+.servicesPage__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dynamicLeftH2, .pipelineLeftH2, .environmentLeftH2, .civilLeftH2, .oilfieldLeftH2 {
+    color: var(--color-white);
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 108.3%; 
+    letter-spacing: -2.88px;
+}
+
+
+
+
+.servicesPage__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    align-items: center;
+}
+
+
+.footer__left {
+    color: var(--color-white);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+}
+
+
+
+
+
+
+
+        /* Left Image */
+
+/* .mainLeft__img { */
+    /* background-image: url(./ServicesPagesImages/ynanchHyzmat.svg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* width: 451px; */
+    /* height:
+     89px; */
+/* } */
+
+
+
+        /* Dynamic Page */
+
+.dynamic {
+    background-color: var(--color-blue);
+}
+
+.dynamicLeftH2 {
+    max-width: 900px;
+    width: 100%;
+}
+
+
+.dynamicImg {
+    background-image: url(./servicesPagesImages/1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 241px;
+    height: 241px; 
+}
+
+
+
+
+
+
+        /* Pipeline Page */
+
+
+.pipeline {
+    background-color: var(--color-silver);
+}
+
+
+.pipelineImg {
+    background-image: url(./servicesPagesImages/2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 235px; 
+}
+
+
+
+
+
+
+        /* Environment Page*/
+
+.environment {
+    background-color: var(--color-green);
+}
+
+
+.environmentImg {
+    background-image: url(./servicesPagesImages/3.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 235px; 
+}
+
+
+
+
+
+
+        /* Civil Page*/
+
+
+.civil {
+    background-color: var(--color-white);
+}
+
+.servicesPageCivil__header {
+    color: #000;
+     margin-top: 72px;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+}
+
+.civilLeftH2 {
+    color: #000;
+}
+
+.civilFooter__left {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+}
+
+
+.civilImg {
+    background-image: url(./servicesPagesImages/4.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 284px; 
+}
+
+
+
+
+
+
+
+
+        /* Oilfield Page*/
+
+.oilfield {
+    background-color: var(--color-brown);
+}
+
+.oilfieldImg {
+    background-image: url(./servicesPagesImages/5.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 238px;
+    height: 366px; 
+}
+

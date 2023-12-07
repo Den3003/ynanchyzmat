@@ -1,0 +1,52 @@
+@import url(../../../assets/styles/colors.css);
+
+.dynamicPage {
+    background-image: linear-gradient(to right, #0E0E0E, #246EB9);
+}
+
+.dynamicPage__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 152px;
+
+}
+
+.dynamicPage__flex_right {
+    background-image: url(../home/servicesPages/servicesPagesImages/1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 241px;
+    height: 241px; 
+}
+
+.dynamicPage__flex_left h2 {
+    color: var(--color-white);
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    max-width: 620px;
+    margin-bottom: 60px;
+}
+
+.dynamicPage__flex_left h3 {
+    color: var(--color-white);
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    margin-bottom: 60px;
+}
+
+.dynamicPage__flex_left p {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+    max-width: 450px;
+}
+
+.dynamicPage__flex_left p:last-child {
+    max-width: 431px;
+}

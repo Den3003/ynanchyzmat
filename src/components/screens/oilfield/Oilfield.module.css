@@ -1,0 +1,49 @@
+@import url(../../../assets/styles/colors.css);
+
+.oilfieldPage {
+    background-image: linear-gradient(to right, #0E0E0E, #423629);
+}
+
+.oilfieldPage__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 164px;
+    margin-bottom: 80px;
+}
+
+.oilfieldPage__flex_right {
+     background-image: url(../home/servicesPages/servicesPagesImages/5.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 238px;
+    height: 366px; 
+}
+
+.oilfieldPage__flex_left h2 {
+    color: var(--color-white);
+    font-size: 48px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.oilfieldPage__flex_left h3 {
+    color: var(--color-white);
+    font-size: 36px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.oilfieldPage__flex_left li {
+    color: var(--color-white);
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    font-weight: 300;
+    max-width: 520px;
+    list-style: disc inside;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
