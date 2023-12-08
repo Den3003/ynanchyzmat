@@ -8,7 +8,7 @@ import styles from './HeaderNav.module.css'
 
 function HeaderNav(props) {
 	const swiper = useSwiper();
-	console.log(swiper)
+	
 	return (
 		<header className='container'>
 			<div className={styles.headerNav}>

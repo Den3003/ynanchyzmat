@@ -4,7 +4,6 @@ import styles from './Button.module.css'
 
 const Button = (props) => {
     const swiper = useSwiper();
-	console.log(swiper)
     return(
         <button className={props.buttonType === 'headerNavButton' 
         ? styles.headerNavButton 
